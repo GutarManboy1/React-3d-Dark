@@ -21,9 +21,12 @@ const Hero = () => {
         </div>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I mostly break stuff, <br className="sm:block hidden" />
-          freak out and eventually make them work. Let's make something together!
+          freak out and eventually make them work. Let's make something
+          together!
         </p>
       </div>
+
+      <ComputersCanvas />
     </section>
   );
 };
