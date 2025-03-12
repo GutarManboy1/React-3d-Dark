@@ -7,8 +7,11 @@ import CanvasLoader from "../Loader";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
+  // remember to use mesh in order to use models
+
+
   return (
-    <mesh>
+    <mesh> 
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
@@ -67,6 +70,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        {/* max/min prevent it from moving in a different axis, only in x/y  */}
         <Computers isMobile={isMobile} />
       </Suspense>
 
