@@ -22,7 +22,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Glenn &nbsp; <span className="sm:block hidden">| Software Engineer</span>{" "}
+            Glenn &nbsp;{" "}
+            <span className="sm:block hidden">| Software Engineer</span>{" "}
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -59,7 +60,8 @@ const Navbar = () => {
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle((prev) => !prev);
-                    setActive(nav.title)}}
+                    setActive(nav.title);
+                  }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
