@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React JS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Developer, kinda",
       icon: backend,
     },
     {
@@ -108,10 +108,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
@@ -120,7 +117,7 @@ import {
       company_name: "Robinson Consulting",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "August 2024 - January 2025",
+      date: "September 2024 - January 2025",
       points: [
         "Developing UI/UX design and front-end development using Javascript, React and other related technologies.",
         "Collaborating with a small team of designers and developers to create unique and interesting projects.",
@@ -133,7 +130,7 @@ import {
       company_name: "Goldware Park",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "June 2024 - July 2024",
+      date: "July 2024 - August 2024",
       points: [
         "Developing websites using Wordpress.",
         "Working on mobile applications using React Native and Typescript.",
@@ -146,7 +143,7 @@ import {
       company_name: "Le Wagon Bootcamp",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "June 2024 - July 2024",
+      date: "January 2024 - March 2024",
       points: [
         "Developing web applications using Ruby, Ruby on Rails,  Javascript and other related technologies.",
         "Collaborating with cross-functional teams including designers and other developers to create unique and interesting projects.",
@@ -155,7 +152,7 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Full Stack Engineer",
       company_name: "100 Devs",
       icon: shopify,
       iconBg: "#383E56",
@@ -172,12 +169,11 @@ import {
       company_name: "ALC",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "March 2018 - Oct 2023",
+      date: "March 2018 - October 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working as a college English instructor required a deep understanding for the academic and intellectual development of my students, as well as a commitment to nuturing critical thinking and analytical skills through literature and language studies",
+        "Imparting knowledge but also inspiring a love for lifelong learning, encouraging students to explore diverese perspectives and engage in meaningful discourse.",
+        "Contributing to a dynamic academic community, participating in scholarly activities, research, and staying abreast of evolving educational methodologies to enhance the overall learning experience.",
       ],
     },
     {
@@ -185,12 +181,11 @@ import {
       company_name: "ECC",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "March 2018 - Oct 2023",
+      date: "April 2010 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Fostering a positive and inclusive learning environment, where students felt comfortable expressing themselves and taking risks with language.",
+        "Adapting my teaching methods and maintaining a flexibility to cater to various learning styles, technological advancements, to ensure relevance.",
+        "Asessing my students' progress thoughtfully and providing constructive feedback as well as guiding them towards improvements while acknowledging their achievements, while fostering a growth mindset in language acquistion.",
       ],
     },
   ];
