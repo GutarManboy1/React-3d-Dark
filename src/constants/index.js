@@ -237,7 +237,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GutarManboy1/story-time",
     },
     {
       name: "Dice House",
@@ -258,7 +258,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GutarManboy1/rails-board-game-rentals",
     },
     {
       name: "React Movies",
@@ -279,7 +279,28 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GutarManboy1/React-Movies",
+    },
+    {
+      name: "3D Portfolio",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/GutarManboy1/3DPortfolio",
     },
   ];
   
