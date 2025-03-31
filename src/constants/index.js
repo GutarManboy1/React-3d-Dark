@@ -221,18 +221,18 @@ import {
     {
       name: "Story Time",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An AI text and image generated app where users can choose their own adventure through genre, language difficulty level(based on the CEFL structure), and length. Created with the ChatGPT api to generate text and the DallE api; built upon Ruby on Rails. Once created a user can begin their own adventure whilst keeping track of the vocabulary by creating flashcards. Learners can pause and resume their story whenever they like by looking into their library.",
       tags: [
         {
-          name: "react",
+          name: "ruby",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "heroku",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
@@ -242,18 +242,18 @@ import {
     {
       name: "Dice House",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A full stack app built upon Ruby on Rails with Javascript, that allows users to rent games and post their own games to be lent.",
       tags: [
         {
-          name: "react",
+          name: "ruby",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "heroku",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
@@ -263,10 +263,10 @@ import {
     {
       name: "React Movies",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "React app built with Javascript with a backend created in appwrite. Users can search for movies and see the most popular movies according to the TMDB API.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
@@ -287,7 +287,7 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
