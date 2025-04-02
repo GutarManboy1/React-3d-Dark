@@ -29,7 +29,7 @@ const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           <p className={styles.sectionSubText}>
-            Say hi <span className="waving-hand">✉️</span>
+            Reach Out and Say Hi <span className="waving-hand">✉️</span>
           </p>
           <h3 className={styles.sectionHeadText}>Contact</h3>
           <form
@@ -55,7 +55,7 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="babaganoosh@gmail.com"
+                placeholder="youremail.com"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>{" "}
@@ -66,7 +66,7 @@ const Contact = () => {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Hi, I was thinking about...."
+                placeholder="Hello, Glenn, make my website better for me!"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>
