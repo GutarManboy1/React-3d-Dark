@@ -59,7 +59,8 @@ const About = () => {
         expand my skill set and versatility as a developer. My goal is to
         continuously improve as a software engineer, embrace new challenges and
         technologies to deliver innovative solutions and contribute meaningfully
-        to any development team. SO HIRE ME!
+        to any development team. If you have any questions or would like to
+        connect, feel free to reach out!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
