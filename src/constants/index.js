@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  alc,
+  devs,
+  ecc,
+  goldware,
+  robinson,
+  wagon
 } from "../assets";
 
 export const navLinks = [
@@ -111,7 +117,7 @@ const experiences = [
   {
     title: "UI/UX Designer & Frontend Development",
     company_name: "Robinson Consulting",
-    icon: starbucks,
+    icon: robinson,
     iconBg: "#383E56",
     date: "September 2024 - January 2025",
     points: [
@@ -124,7 +130,7 @@ const experiences = [
   {
     title: "Web Development",
     company_name: "Goldware Park",
-    icon: tesla,
+    icon: goldware,
     iconBg: "#E6DEDD",
     date: "July 2024 - August 2024",
     points: [
@@ -137,7 +143,7 @@ const experiences = [
   {
     title: "Web Development Education",
     company_name: "Le Wagon Bootcamp",
-    icon: tesla,
+    icon: wagon,
     iconBg: "#E6DEDD",
     date: "January 2024 - March 2024",
     points: [
@@ -148,9 +154,9 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Engineer",
+    title: "Freelance Developer",
     company_name: "100 Devs",
-    icon: shopify,
+    icon: devs,
     iconBg: "#383E56",
     date: "January 2023 - Current",
     points: [
@@ -163,7 +169,7 @@ const experiences = [
   {
     title: "English Instructor",
     company_name: "ALC",
-    icon: meta,
+    icon: alc,
     iconBg: "#E6DEDD",
     date: "March 2018 - October 2023",
     points: [
@@ -175,7 +181,7 @@ const experiences = [
   {
     title: "English Instructor",
     company_name: "ECC",
-    icon: meta,
+    icon: ecc,
     iconBg: "#E6DEDD",
     date: "April 2010 - Present",
     points: [
