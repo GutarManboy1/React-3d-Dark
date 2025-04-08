@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import Spline from "@splinetool/react-spline";
 import EarthScene from "./EarthScene";
+// import { emailjs } from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
