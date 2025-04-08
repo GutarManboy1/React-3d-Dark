@@ -1,3 +1,5 @@
+
+import { a } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -14,22 +16,20 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   alc,
   devs,
   ecc,
   goldware,
   robinson,
-  wagon
+  wagon,
+  starbucks,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
 } from "../assets";
+
+// import { alc, devs, ecc, goldware, robinson, wagon } from "../assets/company";
 
 export const navLinks = [
   {
@@ -144,7 +144,7 @@ const experiences = [
     title: "Web Development Education",
     company_name: "Le Wagon Bootcamp",
     icon: wagon,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "January 2024 - March 2024",
     points: [
       "Developing web applications using Ruby, Ruby on Rails,  Javascript and other related technologies.",
@@ -157,7 +157,7 @@ const experiences = [
     title: "Freelance Developer",
     company_name: "100 Devs",
     icon: devs,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "January 2023 - Current",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -170,7 +170,7 @@ const experiences = [
     title: "English Instructor",
     company_name: "ALC",
     icon: alc,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "March 2018 - October 2023",
     points: [
       "Working as a college English instructor required a deep understanding for the academic and intellectual development of my students, as well as a commitment to nuturing critical thinking and analytical skills through literature and language studies",
