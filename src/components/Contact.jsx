@@ -5,6 +5,10 @@ import Spline from "@splinetool/react-spline";
 import EarthScene from "./EarthScene";
 // import { emailjs } from "@emailjs/browser";
 
+// public key eDGFPfFdbVL5oB16o
+//template id template_kg91von
+// service id service_szj4yzw
+
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
@@ -18,9 +22,48 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .send(
+        "service_szj4yzw",
+        "template_kg91von",
+        {
+          from_name: form.name,
+          to_name: "Glenn",
+          from_email: form.email,
+          to_email: "glenntorrens@gmail.com",
+          message: form.message,
+        },
+        "eDGFPfFdbVL5oB16o"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Your message has been sent successfully");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong. Please try again.");
+        }
+      );
+  };
 
   return (
     <div>
