@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import Spline from "@splinetool/react-spline";
 import EarthScene from "./EarthScene";
-// import { emailjs } from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 // public key eDGFPfFdbVL5oB16o
 //template id template_kg91von
