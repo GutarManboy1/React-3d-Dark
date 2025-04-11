@@ -21,7 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import starbucks from "./company/starbucks.png";
 import alc from "./company/alc.png";
 import devs from "./company/devs.png";
 import goldware from "./company/goldware.png";
@@ -54,7 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  starbucks,
   alc,
   devs,
   goldware,

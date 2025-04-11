@@ -73,7 +73,7 @@ const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           <p className={styles.sectionSubText}>
-            Reach Out and Say Hi <span className="waving-hand">✉️</span>
+            Reach Out and Say Hi <span className="waving-hand">👋🏽</span>
           </p>
           <h3 className={styles.sectionHeadText}>Contact</h3>
           <form
