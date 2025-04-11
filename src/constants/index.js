@@ -1,5 +1,3 @@
-
-import { a } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -22,7 +20,7 @@ import {
   goldware,
   robinson,
   wagon,
-  starbucks,
+  
   carrent,
   jobit,
   tripguide,
