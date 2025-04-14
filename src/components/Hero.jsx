@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import SplineScene from "./SplineScene";
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
@@ -38,4 +39,5 @@ const Hero = () => {
     </section>
   );
 };
-export default Hero;
+const HeroSection = SectionWrapper(Hero, "home");
+export default HeroSection;
