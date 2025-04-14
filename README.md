@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+![Image](https://github.com/user-attachments/assets/959be96a-7863-44d5-97cf-45c60165561a)
+
 # React-3d-Dark
 React Based 3d Portfolio
 =======
