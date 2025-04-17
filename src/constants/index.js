@@ -20,14 +20,11 @@ import {
   goldware,
   robinson,
   wagon,
-  
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
-
-// import { alc, devs, ecc, goldware, robinson, wagon } from "../assets/company";
 
 export const navLinks = [
   {
@@ -58,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator, getting there",
+    title: "Content Creator, kinda sorta getting there",
     icon: creator,
   },
 ];
@@ -209,7 +206,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Glenn optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      "That loopy fuck, crashed our site! I'm gonna kill him!",
     name: "Yuto Ciggy",
     designation: "Owner",
     company: "Waru",
