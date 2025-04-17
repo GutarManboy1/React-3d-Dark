@@ -9,14 +9,14 @@ import { SectionWrapper } from "../hoc";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
-      <div className="absolute inset-0 top-[120px] max-w-7xl mx-auto">
+      <div className="absolute inset-0 flex flex-col  top-[80px] max-w-7xl mx-auto">
         <h1 className={`${styles.heroHeadText} mt-5`}>
           Hey, I'm <span className="text-[#915EFF]">Glenn</span>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Software Engineer, <br className="sm:block hidden" />
-            that makes and breaks tons of stuff!
-          </p>
         </h1>
+        <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          I'm a Software Engineer, <br className="sm:block hidden" />
+          that makes and breaks tons of stuff!
+        </p>
       </div>
       <SplineScene />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">
