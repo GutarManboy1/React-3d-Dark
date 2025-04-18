@@ -190,7 +190,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Glenn proved me wrong.",
+      "This asshole loves his chicken! I'm gonna kill him!",
     name: "Nobu Hatano",
     designation: "Owner",
     company: "Hatano Yakitori",
@@ -198,7 +198,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Glenn does.",
+      "I've never met a web developer who truly cares about their clients' success like Glenn does lol. I'm fucking kidding!",
     name: "Shin Watanabe",
     designation: "Owner",
     company: "Barber King",
